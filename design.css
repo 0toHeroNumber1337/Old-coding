@@ -1,0 +1,393 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CODE STARTS Here */
+
+body {
+    
+   display: block;
+   max-width: 1440px;
+
+    
+  }
+
+  /* html{
+
+    box-sizing: border-box;
+  } */
+
+  /* section {
+    display: flex;
+  } */
+
+.reviews{
+
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    position: relative;
+    right: 4em;
+    background-color: hsl(300, 24%, 96%)
+
+}
+.report{
+
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    background-color: hsl(300, 24%, 96%);
+    right: 10%vh;
+
+}
+.best{
+
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 400px;
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    /* transform: translate(2em) */
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    left: 3em;
+    
+}
+
+.headright{
+
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+margin-right: 6em;
+color: hsl(300, 43%, 22%);
+font-weight: 600;
+
+
+}
+
+
+.headleft{
+
+   
+display:block;
+font-size: 800;
+line-height: 1;
+flex: 1;   
+justify-content: start;
+margin-top: 2em;
+margin-left: 2em;
+align-items: center ;
+max-width: 500px;
+}
+
+
+
+.headmain{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("images/bg-pattern-top-desktop.svg");
+   
+    max-width: 1440px;
+      
+}
+
+
+
+.pic{
+
+
+border-radius: 50%;
+display: inline;
+position: relative;
+
+}
+
+.colton{
+
+    background-color:  hsl(300, 43%, 22%);
+    width: 700px; 
+    height: 200px;
+    border-radius: 10px;
+    padding: 1em;
+    /* margin: 20px; */
+max-width: 300px;
+
+}
+
+.irene{
+
+    background-color:  hsl(300, 43%, 22%);
+    width: 700px; 
+    height: 200px;
+border-radius: 10px;
+padding: 1em;
+/* margin: 20px; */
+max-width: 300px;
+margin: 10 10;
+position: relative;
+top: 2em;
+}
+
+.anne{
+
+    background-color:  hsl(300, 43%, 22%);
+    width: 700px; 
+    height: 200px;
+border-radius: 10px;
+padding: 1em;
+/* margin: 2px; */
+max-width: 300px;
+position: relative;
+top: 3em;
+}
+
+h1{
+
+    font-size: 4em;
+    font-weight: 800;
+    margin-bottom: .4em;
+    text-align: left;
+    color: hsl(300, 43%, 22%);
+
+    
+}
+
+h2{
+
+display: inline-block;
+font-size: 15px;
+/* text-align: center; */
+color: hsl(300, 24%, 96%);
+padding: 5px;
+/* text-align: right; */
+position: relative;
+bottom: 3rem;
+left: 3rem;
+
+}
+
+h3{
+    display: inline-block;
+font-size: 15px;
+text-align: center;
+padding: .5em;
+color: hsl(333, 80%, 67%);
+position: relative;
+bottom: 1rem;
+left: -3.2rem;
+
+}
+
+.para{
+
+    color: hsl(303, 10%, 53%);
+}
+
+p{
+
+    text-align: left;
+    font-size: 20px;
+
+}
+
+
+
+.testimonials{
+
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url("images/bg-pattern-bottom-desktop.svg"); */
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+
+    max-width: 1440px;
+    align-items: center;
+    padding: 2em;
+    margin-bottom: 2em;
+    
+    
+    }
+
+    .ptest{
+
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+/* @media  (max-width: 1400px){
+
+
+.headright div{
+
+    position: static;
+
+}
+
+    } */
+
+
+
+@media  (max-width: 1086px){
+
+body{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+.testimonials{
+        
+            flex-direction: column;
+            justify-content: center;
+        
+
+        }
+        
+ .colton{
+
+            margin: 1em;
+        }
+
+.irene{
+
+            margin: 1em;
+        }
+
+.anne{
+
+            margin: 1em;
+        }
+
+h1{
+
+    text-align: center;
+}
+
+.para{
+
+    text-align: center;
+}
+
+.headright{
+
+    align-items: center;
+    margin: 0;
+    
+}
+.headright div{
+
+    position: static;
+    width: 300px;
+
+}
+
+.reviews img{
+
+    display: block;
+  
+}
+
+
+
+            }      
+
+
+@media  (max-width: 1086px){
+
+
+        .headmain{
+        
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        
+            }
+
+
+html{
+
+    min-width: 375px;
+}
+
